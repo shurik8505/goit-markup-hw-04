@@ -40,6 +40,7 @@ img {
 :focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    background-color:  #31d0aa;;
 }
 
 
@@ -54,6 +55,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+
 }
 
 .header-nav {
@@ -183,6 +185,10 @@ img {
     background: #2e2f42;
     padding: 188px 0;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ .jpg);
+    max-width: 1440px; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
 } 
 
 .hero-title {
@@ -210,6 +216,8 @@ img {
     display: block;
     margin: 0 auto;
     min-width: 169px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
 
 .hero-btn:hover,
@@ -226,6 +234,7 @@ button {
 .advantages {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin-bottom: 8px;
   }
 
 .advantages-title {
@@ -314,10 +323,6 @@ button {
     background: #fff;
 }
 
-.team-item:hover {
-   
-}
-
 .team-info {
     padding: 32px 0;
 }
@@ -354,11 +359,13 @@ button {
    display: flex;
    align-items: center;
    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
 .team-social-link:hover {
-    background: #31D0AA;
+    background-color: #31D0AA;
 }
 
 .team-menu-logo {
@@ -400,6 +407,8 @@ button {
     justify-content: center;
     flex-direction: column;
     gap: 8px;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
 .portfolio-item:hover {
@@ -416,8 +425,6 @@ button {
     height: 120px;
         }
 
-.portfolio-img {
-}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -442,15 +449,13 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 40px;
+   padding: 40px 32px;
     background: #4d5ae5;
     width: 360px;
     height: 300px;
 
     transform: translateY(100%);
-    transition: transform 250ms ease-in-out;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
    
 }
@@ -471,11 +476,6 @@ button {
     padding: 100px 0;
 }
 
-
-.footer-logo {
-}
-.footer-logo-img {
-}
 .footer-text { 
     font-weight: 400;
     font-size: 16px;
@@ -518,6 +518,7 @@ button {
 .footer a {
     display: flex; 
     margin-bottom: 16px;
+    height: 100%;
 }
 
 .footer-text {
@@ -529,15 +530,15 @@ color: #fff;
 }
 
 
-.footer-content {
-    
-}
-
 .footer-menu-logo {
      display: flex;
     gap: 16px;
 }
 
+.footer-social-item {
+    width: 40px;
+    height: 40px;
+}
 
 .footer-social {
     margin-left: 120px;
@@ -545,6 +546,8 @@ color: #fff;
 
 .footer-container {
     display: flex;
+     align-items: baseline;
+     margin-right: 120px;
 } 
 
 .footer-social-text {

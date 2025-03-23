@@ -230,7 +230,7 @@ button {
   }
 
 .advantages-title {
-    margin-bottom: 8px;
+    
 }
 
 .visually-hidden {
@@ -273,6 +273,7 @@ button {
     border: 1px solid #8e8f99;
     border-radius: 4px;
    background: #f4f4fd;
+   margin-bottom: 8px;
 }
 
 

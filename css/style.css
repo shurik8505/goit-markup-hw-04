@@ -358,10 +358,9 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover,
+
 .team-social-link:hover,
-    .footer-social-link:focus,
-    .team-social-link:focus{
+.team-social-link:focus{
     background-color: #404bbf; ;
 }
 
@@ -558,6 +557,11 @@ color: #fff;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus, {
+    background-color: #31d0aa; 
 }
 
 :root {

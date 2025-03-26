@@ -228,11 +228,11 @@ button {
   }
 
 .advantages-title {
-    margin-bottom: 8px;
+    
 }
 
 .advantages-container {
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -308,7 +308,6 @@ button {
 
 .team-menu {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     gap: 24px;
 }

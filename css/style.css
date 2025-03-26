@@ -37,10 +37,6 @@ img {
     box-sizing: border-box;
 }
 
-:root {
-  --icon-color: #f4f4fd;
-}
-
 
 /* =============HEADER================= */
 
@@ -377,6 +373,10 @@ button {
     gap: 24px;
 }
 
+:root {
+  --icon-color: #f4f4fd;
+}
+
 .team-social-logo {
   fill: var(--icon-color);
 }
@@ -574,6 +574,10 @@ color: #fff;
 .footer-social-link:focus,
 .footer-social-link:active  {
     background-color: #31d0aa; 
+}
+
+:root {
+  --icon-color: #f4f4fd;
 }
 
 .footer-social-logo {

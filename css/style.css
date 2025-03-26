@@ -560,7 +560,8 @@ color: #fff;
 }
 
 .footer-social-link:hover,
-.footer-social-link:focus {
+.footer-social-link:focus,
+.footer-social-link:active  {
     background-color: #31d0aa; 
 }
 

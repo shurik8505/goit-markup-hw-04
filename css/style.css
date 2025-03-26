@@ -36,6 +36,7 @@ img {
     box-sizing: border-box;
 }
 
+
 /* =============HEADER================= */
 
 .header {
@@ -557,4 +558,12 @@ color: #fff;
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+
+:root {
+  --icon-color: #f4f4fd;
+}
+
+.footer-social-logo {
+  fill: var(--icon-color);
 }
